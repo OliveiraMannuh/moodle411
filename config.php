@@ -26,5 +26,15 @@ $CFG->directorypermissions = 0777;
 
 require_once(__DIR__ . '/lib/setup.php');
 
+/*Configurações adicionais*/
+
+$CFG->debug = E_ALL;
+$CFG->debugdisplay = 1;
+$CFG->langstringcache = 0;
+$CFG->cachetemplates = 0;
+$CFG->cachejs = 0;
+$CFG->perfdebug = 15;
+$CFG->debugpageinfo = 1;
+
 // There is no php closing tag in this file,
 // it is intentional because it prevents trailing whitespace problems!
